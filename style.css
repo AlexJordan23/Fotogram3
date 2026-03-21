@@ -132,3 +132,9 @@
         max-height: 55vh;
     }
 }
+
+@media(max-width: 680px){
+    .album_images{
+        max-height: 45vh;
+    }
+}
