@@ -126,3 +126,9 @@
     display: flex;
     justify-content: center;
 }
+
+@media(max-width: 700px){
+    .album_images{
+        max-height: 55vh;
+    }
+}
