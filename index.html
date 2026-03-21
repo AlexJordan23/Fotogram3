@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fotogram</title>
+        <link rel="icon" type="image/x-icon" href="./pictures/fotogramlogo.jpeg">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+ 
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+            
+        </style>
+
+    </head>
+    <body class="body_container">
+        <div>
+            <div class="header_container">
+                <img class="picture_logo" src="./pictures/fotogramlogo.jpeg" alt="logo">
+                <h1 class="fotogram_container">Fotogram</h1>
+            </div>
+            <div>
+                <h1 class="album_title">Your personal photo album</h1>
+            </div>
+                <div class="album_picture_wrapper">
+                    <div id="album_pictures">
+
+                    </div>
+                </div>
+            <footer class="footer_container">
+                <h1 class="developer_container">Developer Akademie</h1>
+                <p class="developer_container">c 2023 Developer Akademie GmbH</p>
+            </footer>
+
+            <dialog id="myDialog">
+            <div class="button_dialog_container">
+                <header>
+                    <h2 class="color_dialog">Lio 1</h2>
+                </header>
+                <button class="x_color_button" onclick="closeDialog()">&#x2715</button>
+            </div>
+            <section>
+                <img src="" alt="Vollbildansicht">
+            </section>
+            <footer class="footer_container2">
+                <button class="color_button" onclick="changeImage(-1)">&#8592 </button>
+                <p class="color_dialog">1/12</p>
+                <button class="color_button" onclick="changeImage(1)">&#8594 </button>
+            </footer>
+        </dialog>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

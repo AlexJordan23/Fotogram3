@@ -1,0 +1,127 @@
+.body_container{
+    background-color: #06171E;
+    margin: 0;
+    height: 100%;
+}
+
+.album_title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 56px;
+    
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-bottom: 16px;
+    gap: 5px;
+    border: 16px;
+    border-bottom: 1px;
+    width: 215.19px;
+    height: 41px;
+}
+
+.fotogram_container{
+    width: 215.19px;
+    height: 41px;
+    color: #FFFFFF;
+    font-family: 'Figtree', sans-serif;
+    
+}
+
+.picture_logo{
+    width: 40.55px;
+    height: 38.74px;
+}
+
+.footer_container{
+    background-color: #09212A;
+    margin-top: 10vh;
+}
+
+.developer_container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+#album_pictures img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+#album_pictures{
+    display: flex;
+    max-width: 1216px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+}
+
+@media(max-width: 380px) {
+    .album_title{
+        display: flex;
+        justify-content: center;
+        font-size: 48px;
+        
+    }
+
+    .header_container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.album_picture_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+#myDialog{
+    background-color: #09212A;
+    border-radius: 25px;
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+.button_dialog_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.color_dialog{
+    color: white;
+}
+
+.footer_container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.color_button{
+    border-radius: 25px;
+    color: white;
+    background-color: orange;
+}
+
+.x_color_button{
+    background-color: #09212A;
+    color: white;
+}
+
+.album_images{
+    max-height: 60vh;
+    display: flex;
+    justify-content: center;
+}
