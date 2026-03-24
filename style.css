@@ -130,7 +130,14 @@
 @media(max-width: 700px){
     .album_images{
         max-height: 45vh;
+
     }
+}
+
+.vollbildclass{
+    height: 95%;
+    width: 95%;
+    
 }
 
 
