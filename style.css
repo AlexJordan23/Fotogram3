@@ -2,6 +2,7 @@
     background-color: #06171E;
     margin: 0;
     height: 100%;
+    overflow: hidden;
 }
 
 .album_title{
