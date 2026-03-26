@@ -46,3 +46,16 @@ function changeImage(direction) {
 
     updateDialogContent();
 }
+
+document.addEventListener('keydown', function (event){
+    if(dialogRef.open){
+        if(event.key === 'ArrowRight'){
+        changeImage(1);
+    } else if (event.key === 'ArrowLeft') {
+        changeImage(-1);
+    } else if (event.key === 'Escape'){
+        closeDialog();
+    }
+}   
+});
+ 
