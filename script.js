@@ -11,7 +11,10 @@ let currentIndex = 0;
 
 
 for (let i = 0; i < imageList.length; i++) {
-    pictures.innerHTML += `<img src="${imageList[i]}" onclick="openModal(${i})" class="album-img">`;
+    pictures.innerHTML += `
+    <button class="album-btn" onclick="openModal(${i})">
+        <img src="${imageList[i]}" onclick="openModal(${i})" class="album-img">
+    </button> `;
 }
 
 function openModal(index) {

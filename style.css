@@ -2,7 +2,7 @@
     background-color: #06171E;
     margin: 0;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .album_title{
@@ -18,7 +18,6 @@
     display: flex;
     align-items: center;
     padding-top: 16px;
-    padding-left: 8px;
     padding-bottom: 16px;
     gap: 20px;
     border: 16px;
@@ -169,4 +168,23 @@
 .color_dialog2{
     color: white;
     font-family: 'Figtree', sans-serif;
+}
+
+@media(max-width: 1040px){
+    .footer_container{
+        margin-top: 30vh;
+    }
+}
+
+@media(max-width: 688px){
+    .footer_container{
+        margin-top: 40vh;
+    }
+}
+
+.album-btn{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
 }
