@@ -42,7 +42,7 @@
 
 .footer_container{
     background-color: #09212A;
-    margin-top: 10vh;
+    margin-top: 50vh;
 }
 
 .developer_container{
@@ -144,6 +144,10 @@
     .header_container{
         display: flex;
         justify-content: center;
+    }
+
+    .footer_container{
+        margin-top: 20vh;
     }
 }
 
