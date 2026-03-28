@@ -5,6 +5,8 @@ let imageList = [
     "pictures/lio10.JPG", "pictures/lio11.JPG", "pictures/lio12.JPG",
 ];
 
+
+
 let pictures = document.getElementById('album_pictures');
 const dialogRef = document.getElementById("myDialog");
 let currentIndex = 0;
@@ -14,7 +16,7 @@ function loadPictures(){
     for (let i = 0; i < imageList.length; i++) {
         pictures.innerHTML += `
         <button class="album-btn" onclick="openModal(${i})">
-            <img src="${imageList[i]}" onclick="openModal(${i})" class="album-img">
+            <img src="${imageList[i]}" onclick="openModal(${i})" class="album-img" alt="Bild von Lio${i+1}">
         </button> `;
     }
 }
@@ -60,8 +62,8 @@ document.addEventListener('keydown', function (event){
         changeImage(1);
     } else if (event.key === 'ArrowLeft') {
         changeImage(-1);
-    } else if (event.key === 'Escape'){
-        closeDialog();
+    
+        
     }
 }   
 });
@@ -72,3 +74,4 @@ dialogRef.addEventListener("click", (event) => {
     }
 })
  
+
