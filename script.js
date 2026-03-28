@@ -10,12 +10,16 @@ const dialogRef = document.getElementById("myDialog");
 let currentIndex = 0;
 
 
-for (let i = 0; i < imageList.length; i++) {
-    pictures.innerHTML += `
-    <button class="album-btn" onclick="openModal(${i})">
-        <img src="${imageList[i]}" onclick="openModal(${i})" class="album-img">
-    </button> `;
+function loadPictures(){
+    for (let i = 0; i < imageList.length; i++) {
+        pictures.innerHTML += `
+        <button class="album-btn" onclick="openModal(${i})">
+            <img src="${imageList[i]}" onclick="openModal(${i})" class="album-img">
+        </button> `;
+    }
 }
+
+loadPictures();
 
 function openModal(index) {
     currentIndex = index;
@@ -61,4 +65,10 @@ document.addEventListener('keydown', function (event){
     }
 }   
 });
+
+dialogRef.addEventListener("click", (event) => {
+    if (event.target === dialogRef){
+        closeDialog();
+    }
+})
  
