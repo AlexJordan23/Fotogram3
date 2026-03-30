@@ -113,15 +113,22 @@
 }
 
 .color_button{
-    border-radius: 25px;
-    color: white;
-    background-color: orange;
+    color: #E1544B;
+    background-color: #e1554b49;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
 }
 
 .x_color_button{
     background-color: #09212A;
     color: white;
-    height: 25px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
 }
 
 .album_images{
