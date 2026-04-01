@@ -2,7 +2,6 @@
     background-color: #06171E;
     margin: 0;
     height: 100%;
-    overflow-x: hidden;
 }
 
 .album_title{
@@ -41,7 +40,7 @@
 
 .footer_container{
     background-color: #09212A;
-    margin-top: 50vh;
+    margin-top: 25vh;
 }
 
 .developer_container{
@@ -83,9 +82,11 @@
     }
 }
 
-.album_picture_wrapper{
+.main_container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #myDialog{
@@ -109,7 +110,7 @@
 .footer_container2{
     display: flex;
     justify-content: space-around;
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .color_button{
