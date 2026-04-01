@@ -11,6 +11,7 @@
     text-align: center;
     font-size: 56px;
     font-family: 'Figtree', sans-serif;
+    margin: 0;
 }
 
 .header_container{
@@ -65,6 +66,7 @@
     gap: 16px;
     align-items: center;
     width: 100%;
+    padding-bottom: 10vh;
 }
 
 @media(max-width: 380px) {
@@ -83,7 +85,6 @@
 
 .main_container{
     display: flex;
-    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     height: calc(100vh - 150px);
@@ -153,9 +154,7 @@
         justify-content: center;
     }
 
-    .footer_container{
-        margin-top: 20vh;
-    }
+    
 }
 
 .vollbildclass {
@@ -178,17 +177,9 @@
     font-family: 'Figtree', sans-serif;
 }
 
-@media(max-width: 1040px){
-    .footer_container{
-        margin-top: 30vh;
-    }
-}
 
-@media(max-width: 688px){
-    .footer_container{
-        margin-top: 40vh;
-    }
-}
+
+
 
 .album-btn{
     border: none;
