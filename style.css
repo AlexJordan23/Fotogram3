@@ -38,9 +38,15 @@
 .logo-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     text-align: center;
     gap: 20px;
+}
+
+@media(max-width: 920px){
+    .logo-container{
+        justify-content: center;
+    }
 }
 
 .picture_logo {
