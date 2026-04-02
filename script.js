@@ -36,6 +36,7 @@ function closeDialog() {
 
 function updateDialogContent() {
     const dialogImg = dialogRef.querySelector('section img');
+    dialogImg.src = "";
     const dialogText = dialogRef.querySelector('header h2');
     const dialogCounter = dialogRef.querySelector('.footer_container2 p');
 

@@ -52,7 +52,7 @@
     background-color: #09212A;
     display: block;
     align-items: center;
-    height: 160px;
+    
 }
 
 .developer_container {
@@ -138,7 +138,7 @@
     background-color: #09212A;
     border-radius: 25px;
     max-height: 80vh;
-    max-width: 80vw;
+    max-width: 70vw;
 }
 
 .button_dialog_container {
@@ -204,16 +204,13 @@
 }
 
 .vollbildclass {
-    max-width: 75vw;
+    max-width: 60vw;
     max-height: 60vh;
 }
 
 .section_dialog {
     display: flex;
     justify-content: center;
-    height: 80%;
-    width: 100%;
-    overflow: hidden;
 }
 
 
@@ -247,7 +244,7 @@
 }
 
 .footer_container3{
-    padding-top: 80px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
