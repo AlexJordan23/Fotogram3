@@ -137,7 +137,8 @@
 #myDialog {
     background-color: #09212A;
     border-radius: 25px;
-    
+    height: 80vh;
+    width: 70vw;
 }
 
 .button_dialog_container {
