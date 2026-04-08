@@ -29,6 +29,7 @@ function loadPictures(){
         <button class="album-btn" onclick="openModal(${i})">
             <img src="${imageList[i]}" onclick="openModal(${i})" class="album-img" alt="Bild von Lio${i+1}">
         </button> `;
+        togglescroll();
     }
 }
 
@@ -86,6 +87,7 @@ document.addEventListener('keydown', function (event){
 dialogRef.addEventListener("click", (event) => {
     if (event.target === dialogRef){
         closeDialog();
+        togglescroll();
     }
 })
  

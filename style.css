@@ -1,7 +1,13 @@
+@font-face{
+    font-family: fightree;
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
 .body_container {
     background-color: #06171E;
     margin: 0;
     height: 100%;
+    font-family: fightree;
 }
 
 .album_title {
@@ -10,7 +16,7 @@
     justify-content: center;
     text-align: center;
     font-size: 56px;
-    font-family: 'Figtree', sans-serif;
+
 }
 
 .header_container {
@@ -235,4 +241,3 @@
     padding: 0 20px;
     box-sizing: border-box;
 }
-

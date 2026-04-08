@@ -10,9 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-    </style>
+    
 
 </head>
 
@@ -38,32 +36,31 @@
     <footer class="footer_container">
         <div class="content_wrapper">
 
-        
         <div class="footer_container3">
             <div class="flex_box">
                 <img class="devlogo" src="./pictures/devlogo3.png" alt="Developer Akademie Logo">
-                <h1 class="developer_container">Developer Akademie</h1>
+                <h2 class="developer_container">Developer Akademie</h2>
             </div>
             <p class="developer_container">c 2023 Developer Akademie GmbH</p>
             </div>
         </div>
     </footer>
 
-    <dialog id="myDialog">
+    <dialog id="myDialog" >
         <div class="button_dialog_container">
             <header>
                 <h2 class="color_dialog2">Lio 1</h2>
             </header>
-            <button class="x_color_button" onclick="closeDialog()">&#x2715</button>
+            <button class="x_color_button"  aria-label="Close Dialog" onclick="closeDialog()">&#x2715</button>
         </div>
         <section class="section_dialog">
             <img class="vollbildclass" src="" alt="Husky im Schnee">
         </section>
-        <footer class="footer_container2">
-            <button class="color_button" onclick="changeImage(-1)">&#8592 </button>
+        <nav class="footer_container2">
+            <button class="color_button"aria-label="Previous Picture" onclick="changeImage(-1)">&#8592 </button>
             <p class="color_dialog">1/12</p>
-            <button class="color_button" onclick="changeImage(1)">&#8594 </button>
-        </footer>
+            <button class="color_button" aria-label="Next Picture" onclick="changeImage(1)">&#8594 </button>
+        </nav>
     </dialog>
 
     <script src="script.js" async defer></script>
