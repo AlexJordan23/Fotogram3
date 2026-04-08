@@ -5,6 +5,17 @@ let imageList = [
     "pictures/lio10.JPG", "pictures/lio11.JPG", "pictures/lio12.JPG",
 ];
 
+function togglescroll(){
+    if(dialogRef.open){
+        document.body.style.overflow = 'hidden'
+    } else{
+        document.body.style.overflow = 'auto'
+    }
+
+}
+
+
+
 
 
 let pictures = document.getElementById('album_pictures');
@@ -24,13 +35,16 @@ function loadPictures(){
 loadPictures();
 
 function openModal(index) {
+    togglescroll();
     currentIndex = index;
     updateDialogContent();
     dialogRef.showModal();
+    
 }
 
 function closeDialog() {
     dialogRef.close();
+    togglescroll();
 }
 
 
